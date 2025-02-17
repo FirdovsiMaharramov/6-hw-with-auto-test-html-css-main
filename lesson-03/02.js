@@ -2,7 +2,7 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(int) {
-    if (int%2==0){
+    if (int%2===0){
         return true;
     }
     else{
