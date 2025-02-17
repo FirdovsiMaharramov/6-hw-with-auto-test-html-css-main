@@ -1,13 +1,16 @@
 // Разработайте функцию findLargest, которая принимает три числа и возвращает наибольшее из них.
 
 function findLargest(a,b,c) {
-    if(a>b && a>c)
-        return a;
-    
-    else if(b>a && b>c)
-        return b;
-    
-    else 
-        return c
+    let max=0;
+    if(a>b){
+        max=a;
+    }
+    else{
+        max=b;
+    }
+    if(c>max){
+        max=c
+    }
+    return max;
     
 }
