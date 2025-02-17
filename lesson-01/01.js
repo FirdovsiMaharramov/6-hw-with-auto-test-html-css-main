@@ -2,9 +2,4 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum
-while(i<=20){
-    sum+=i;
-    console.log(sum)
 
-}
