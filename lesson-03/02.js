@@ -3,7 +3,7 @@
 let number=90;
 
 function isEven(number) {
-    if (int%2===0){
+    if (number%2===0){
         return true;
     }
     else{
